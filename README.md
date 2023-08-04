@@ -18,7 +18,7 @@ This multi-stack application demonstrates the use of GraphQL to efficiently perf
 
 ## Installation:
 
-Click on the https url of the project repository and depending on which IDE you are using past the URL in your git clone command in your terminal and project directory.
+Click on the https url of the project repository and depending on which IDE you are using paste the URL in your git clone command in your terminal and within your project directory.
 
 ```shell
 git clone <github url>
