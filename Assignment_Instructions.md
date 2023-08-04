@@ -1,6 +1,6 @@
 # Module 24.3 - GraphQL Restaurant Data Exercise:
 
-![GraphQL_Restaurant_Data_Exercise_02.jpg](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_02.jpg)
+![GraphQL_Restaurant_Data_Exercise_01.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_01.png)
 
 ## Learning Outcome Addressed:
 
@@ -14,9 +14,9 @@ The [starter files](/Starter_Files) for this activity include the **restaurant d
 
 To **accomplish this task**, you **need to implement** the **following methods** under the `“root”` object:
 
-* **restaurant:** This *gets* a *single restaurant* based on a *provided ID*. 
-* **restaurants:** This *gets* a *list of all* restaurants. 
-* **setrestaurant:** This *creates* a *new restaurant*. 
+* **restaurant:** This *gets* a *single restaurant* based on a *provided ID*.
+* **restaurants:** This *gets* a *list of all* restaurants.
+* **setrestaurant:** This *creates* a *new restaurant*.
 * **Deleterestaurant:** This *deletes a restaurant* based on the *provided id*.
 * **editrestaurant:** This *updates* a *restaurant* based on the *provided id*.
 
