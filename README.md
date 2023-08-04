@@ -2,24 +2,46 @@
 
 ![GraphQL_Restaurant_Data_Exercise_02.jpg](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_02.jpg)
 
-## Learning Outcome Addressed:
+## Project Description:
 
-9. Use GraphQL to query and update data
+This multi-stack application demonstrates the use of GraphQL to efficiently perform query and mutation operations on a sample restaurant database. The query operations include getting a list of all the restaurants in the database, and getting a particular restaurant based on its id. The mutation operations involve editing an existing restaurant, deleting a restaurant from the database, and finally adding a new restaurant.
 
-Creating **multi-tier applications** means building **multiple API endpoints** to handle **different data operations**. The **more complex** your **application becomes**, *the harder it is to* **maintain all these endpoints**. `GraphQL` aims to **reduce this complexity** by providing a **simpler view** of **data** and making it **easier to query** it.
+### Technical Stack:
 
-Your task is to **set up** `GraphQL` for your **restaurant data** and then **add mutations** to **get** and **update these data**.
+* **Frontend:** The frontend `index.js` is developed using modern web technologies like React.js.
 
-The [starter files](/Starter_Files) for this activity include the **restaurant data** in **JSON format** and a predefined **build schema** for `GraphQL`. You need to g**o through this code** to understand **what each query** or **mutation** should **look like**.
+* **Backend:** The backend is powered by a `Node.js` server, which handles GraphQL requests and interactions with the restaurant database.
 
-To **accomplish this task**, you **need to implement** the **following methods** under the `“root”` object:
+* **Database:** The database is hardcoded in the `index.js` file. For now this is a limitation. Since the application is for demonstration of concept only.
 
-* **restaurant:** This *gets* a *single restaurant* based on a *provided ID*. 
-* **restaurants:** This *gets* a *list of all* restaurants. 
-* **setrestaurant:** This *creates* a *new restaurant*. 
-* **Deleterestaurant:** This *deletes a restaurant* based on the *provided id*.
-* **editrestaurant:** This *updates* a *restaurant* based on the *provided id*.
+* **GraphQL Server:** The `GraphQL` server acts as a middleware that efficiently processes queries and mutations, communicating with the database to fetch or update the required information.
 
-## Instructions:
+## Installation:
 
-After **completing the task**, run the **GraphQL interface** and **submit a file** with **screenshots** showing all **five queries** and **mutations** highlighted above, along with **a link** to your **GitHub repo** that **houses the code** for **this activity**.
+Click on the https url of the project repository and depending on which IDE you are using past the URL in your git clone command in your terminal and project directory.
+
+```shell
+git clone <github url>
+```
+
+After successfully cloning the repository. Make sure you first have `Node.js` installed.
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install node
+node -v
+npm -v
+```
+
+Then run the package.json file by running npm install to install all dependencies.
+
+```shell
+npm install
+```
+
+## Usage:
+
+## Future Improvements:
+
+## License:
+

@@ -10,7 +10,7 @@ Creating **multi-tier applications** means building **multiple API endpoints** t
 
 Your task is to **set up** `GraphQL` for your **restaurant data** and then **add mutations** to **get** and **update these data**.
 
-The [starter files](/Starter_Files) for this activity include the **restaurant data** in **JSON format** and a predefined **build schema** for `GraphQL`. You need to g**o through this code** to understand **what each query** or **mutation** should **look like**.
+The [starter files](/Starter_Files) for this activity include the **restaurant data** in **JSON format** and a predefined **build schema** for `GraphQL`. You need to **go through this code** to understand **what each query** or **mutation** should **look like**.
 
 To **accomplish this task**, you **need to implement** the **following methods** under the `“root”` object:
 
