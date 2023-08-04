@@ -1,0 +1,53 @@
+query restaurant($id_arg:Int!) {
+  restaurant(id:$id_arg) {
+    id
+    name
+    description
+    dishes {
+      name
+      price
+    }
+  }
+}
+
+query restaurants{
+  myRestaurants: restaurants {
+    id
+		name
+    description
+    dishes {
+      name
+      price
+    }
+  }
+}
+
+mutation setrestaurant {
+  setrestaurant(input: {
+    	id: 3,
+      name: "Olive Garden",
+      description: "Never Ending pasta Bowl"})
+  	{
+    id
+    name
+    description
+  	}
+}
+
+mutation deleteRestaurant($id_arg:Int!) {
+  deleterestaurant(id:$id_arg) {
+    ok
+  }
+}
+
+mutation editRestaurant($id_arg:Int!, $name_arg:String!) {
+  editrestaurant(id:$id_arg, name:$name_arg) {
+    name
+    description
+  }
+}
+
+{
+  "id_arg": 2,
+  "name_arg": "Red Dragon"
+}

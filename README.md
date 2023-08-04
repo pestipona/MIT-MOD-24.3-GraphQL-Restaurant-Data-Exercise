@@ -76,6 +76,56 @@ As shown below:
 
 ![GraphQL_Restaurant_Data_Exercise_08.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_08.png)
 
+### Return a specific restaurant:
+
+```text
+query restaurant($id_arg:Int!) {
+  restaurant(id:$id_arg) {
+    id
+    name
+    description
+    dishes {
+      name
+      price
+    }
+  }
+}
+```
+
+![GraphQL_Restaurant_Data_Exercise_09.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_09.png)
+
+### Add a specific restaurant:
+
+```text
+mutation setrestaurant {
+  setrestaurant(input: {
+        id: 3,
+      name: "Olive Garden",
+      description: "Never Ending pasta Bowl"})
+    {
+    id
+    name
+    description
+    }
+}
+```
+
+![GraphQL_Restaurant_Data_Exercise_10.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_10.png)
+
+![GraphQL_Restaurant_Data_Exercise_11.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_11.png)
+
+### Delete a specific restaurant:
+
+```text
+
+```
+
+### Edit a specific restaurant:
+
+```text
+
+```
+
 ## Future Improvements:
 
 ## License:
