@@ -139,11 +139,13 @@ mutation editrestaurant($id_arg:Int!, $name_arg:String!) {
 }
 ```
 
+![GraphQL_Restaurant_Data_Exercise_14.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_14.png)
 
-
-
+![GraphQL_Restaurant_Data_Exercise_15.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_15.png)
 
 ## Future Improvements:
+
+Add a Strapi Database
 
 ## License:
 
