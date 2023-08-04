@@ -34,13 +34,13 @@ mutation setrestaurant {
   	}
 }
 
-mutation deleteRestaurant($id_arg:Int!) {
+mutation deleterestaurant($id_arg:Int!) {
   deleterestaurant(id:$id_arg) {
     ok
   }
 }
 
-mutation editRestaurant($id_arg:Int!, $name_arg:String!) {
+mutation editrestaurant($id_arg:Int!, $name_arg:String!) {
   editrestaurant(id:$id_arg, name:$name_arg) {
     name
     description
