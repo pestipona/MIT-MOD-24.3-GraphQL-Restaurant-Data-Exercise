@@ -46,3 +46,8 @@ Next, Let's import `index.js` and bring up a **terminal window** and let's do `n
 ```shell
 nodemon index.js
 ```
+
+Okay, **now its listening** on `port 5500`, let's open up a **web browser** go to http://localhost:5500/graphql. And if we get a `port 5500` and GraphQL, it actually **brings up** a **really nice interface** here that we **can make queries** and **mutations**.
+
+![GraphQL_Restaurant_Data_Exercise_06.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_06.png)
+

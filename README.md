@@ -41,6 +41,41 @@ npm install
 
 ## Usage:
 
+### Opening the Application:
+
+In your IDE open up a terminal and navigate to the directory `expressGraphQL` and enter nodemon `index.js`
+
+```shell
+cd ./expressGraphQL
+nodemon index.js
+```
+
+The application will **now start listening** on `port 5500`, open up a **web browser** go to http://localhost:5500/graphql. And if you get a `port 5500` and GraphQL, it actually means your environment is working.
+
+![GraphQL_Restaurant_Data_Exercise_07.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_07.png)
+
+### Return a list of all restaurants:
+
+To perform a query in graphQL paste the following graphQL query called `restaurants` in the box as shown. This will return a list of all the restaurants.
+
+```text
+query restaurants{
+  restaurants {
+    id
+		name
+    description
+    dishes {
+      name
+      price
+    }
+  }
+}
+```
+
+As shown below:
+
+![GraphQL_Restaurant_Data_Exercise_08.png](Screen_Shots%2FGraphQL_Restaurant_Data_Exercise_08.png)
+
 ## Future Improvements:
 
 ## License:
